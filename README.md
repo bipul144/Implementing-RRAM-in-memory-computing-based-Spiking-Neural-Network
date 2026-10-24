@@ -56,10 +56,10 @@ The overall hardware pipeline follows an end-to-end neuromorphic sensing and com
 * **Switching States:** Non-volatile switching between High Resistance State (HRS) and Low Resistance State (LRS) via SET ($V_{\text{SET}}$) and RESET ($V_{\text{RESET}}$) potentials.
 
 ### 2. Hardware LIF Sensing Neuron
-* **Membrane Resistance ($R_{mem}$):** $500\text{ k}\Omega$
+* **Membrane Resistance ($R_{mem}$):** $1\text{ k}\Omega$
 * **Membrane Capacitance ($C_{mem}$):** $100\text{ pF}$
 * **Resting Potential ($V_{rest}$):** $-0.7\text{ mV}$
-* **Threshold Potential ($V_{th}$):** $-0.5\text{ mV}$
+* **Threshold Potential ($V_{th}$):** $-5\text{ mV}$
 * **Spike Pulse Width:** $0.5\text{ ms}$
 
 ### 3. SNN Architecture & Training
