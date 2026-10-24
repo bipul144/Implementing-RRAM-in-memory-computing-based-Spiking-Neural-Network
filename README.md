@@ -52,7 +52,7 @@ The overall hardware pipeline follows an end-to-end neuromorphic sensing and com
 
 ### 1. RRAM & Access Transistor
 * **Cell Architecture:** 1T-1R (1 Transistor - 1 Resistor)
-* **Access Transistor Node:** 90nm CMOS ($V_{dd} = 1.2\text{V}$, $V_{\text{gate}} = 1.8\text{V}$)
+* **Access Transistor Node:** 90nm CMOS ($V_{dd} = 3.3\text{V}$, $V_{\text{gate}} = 3.3\text{V}$)
 * **Switching States:** Non-volatile switching between High Resistance State (HRS) and Low Resistance State (LRS) via SET ($V_{\text{SET}}$) and RESET ($V_{\text{RESET}}$) potentials.
 
 ### 2. Hardware LIF Sensing Neuron
